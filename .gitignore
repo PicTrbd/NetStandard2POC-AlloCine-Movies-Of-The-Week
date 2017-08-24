@@ -362,4 +362,9 @@ __pycache__/
 
 # End of https://www.gitignore.io/api/macos,windows,visualstudio,xamarinstudio,visualstudiocode
 *.ide
-NetStandard2POC/.vs/NetStandard2POC/v15/.suo
+NetStandard2POC/.vs/*
+/.vs/*
+/obj/*
+/obj/Debug/*
+/bin/*
+.cache

@@ -1,9 +1,0 @@
-\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\bin\Debug\netcoreapp2.0\NetCoreClassLibrary.deps.json
-\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\bin\Debug\netcoreapp2.0\NetCoreClassLibrary.dll
-\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\bin\Debug\netcoreapp2.0\NetCoreClassLibrary.pdb
-\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\obj\Debug\netcoreapp2.0\NetCoreClassLibrary.csprojResolveAssemblyReference.cache
-\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\obj\Debug\netcoreapp2.0\NetCoreClassLibrary.csproj.CoreCompileInputs.cache
-\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\obj\Debug\netcoreapp2.0\NetCoreClassLibrary.AssemblyInfoInputs.cache
-\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\obj\Debug\netcoreapp2.0\NetCoreClassLibrary.AssemblyInfo.cs
-\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\obj\Debug\netcoreapp2.0\NetCoreClassLibrary.dll
-\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\obj\Debug\netcoreapp2.0\NetCoreClassLibrary.pdb

@@ -1,16 +1,16 @@
 ﻿using HtmlAgilityPack;
+using iTextSharp.text;
 using System;
 
 namespace NetStandardClassLibrary
 {
     public class TestClass
     {
-        public HtmlDocument TestMethod()
+        public void TestMethod()
         {
-            var url = "http://html-agility-pack.net/";
-            var web = new HtmlWeb();
-            var doc = web.Load(url);
-            return doc;
+            var z = new Document();
+            var doc = new HtmlWeb().Load("http://html-agility-pack.net/");
+            var nodes = doc.DocumentNode;
         }
     }
 }

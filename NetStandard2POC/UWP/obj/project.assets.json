@@ -2202,16 +2202,6 @@
             "rid": "aot"
           }
         }
-      },
-      "NetStandardClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
-        }
       }
     },
     "UAP,Version=v10.0.10586/win10-arm": {
@@ -4497,16 +4487,6 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
-        }
-      },
-      "NetStandardClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
         }
       }
     },
@@ -6830,16 +6810,6 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
-      },
-      "NetStandardClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
-        }
       }
     },
     "UAP,Version=v10.0.10586/win10-x64": {
@@ -9134,16 +9104,6 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
-        }
-      },
-      "NetStandardClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
         }
       }
     },
@@ -11476,16 +11436,6 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
-      },
-      "NetStandardClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
-        }
       }
     },
     "UAP,Version=v10.0.10586/win10-x86": {
@@ -13780,16 +13730,6 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
-        }
-      },
-      "NetStandardClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
         }
       }
     },
@@ -16121,16 +16061,6 @@
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
-        }
-      },
-      "NetStandardClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NetStandardClassLibrary.dll": {}
         }
       }
     }
@@ -24393,17 +24323,11 @@
         "system.xml.xmlserializer.4.0.11.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
-    },
-    "NetStandardClassLibrary/1.0.0": {
-      "type": "project",
-      "path": "../NetStandardClassLibrary/NetStandardClassLibrary.csproj",
-      "msbuildProject": "../NetStandardClassLibrary/NetStandardClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.10586": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.4.0",
-      "NetStandardClassLibrary >= 1.0.0"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.4.0"
     ]
   },
   "packageFolders": {
@@ -24433,11 +24357,7 @@
       },
       "frameworks": {
         "uap10.0.10586": {
-          "projectReferences": {
-            "Y:\\Documents\\Projects\\NetStandard2POC\\NetStandard2POC\\NetStandardClassLibrary\\NetStandardClassLibrary.csproj": {
-              "projectPath": "Y:\\Documents\\Projects\\NetStandard2POC\\NetStandard2POC\\NetStandardClassLibrary\\NetStandardClassLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },
@@ -24477,70 +24397,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project NetStandardClassLibrary is not compatible with uap10.0.10586 (UAP,Version=v10.0.10586). Project NetStandardClassLibrary supports: netstandard2.0 (.NETStandard,Version=v2.0)",
-      "libraryId": "NetStandardClassLibrary",
-      "targetGraphs": [
-        "UAP,Version=v10.0.10586"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project NetStandardClassLibrary is not compatible with uap10.0.10586 (UAP,Version=v10.0.10586) / win10-arm. Project NetStandardClassLibrary supports: netstandard2.0 (.NETStandard,Version=v2.0)",
-      "libraryId": "NetStandardClassLibrary",
-      "targetGraphs": [
-        "UAP,Version=v10.0.10586/win10-arm"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project NetStandardClassLibrary is not compatible with uap10.0.10586 (UAP,Version=v10.0.10586) / win10-arm-aot. Project NetStandardClassLibrary supports: netstandard2.0 (.NETStandard,Version=v2.0)",
-      "libraryId": "NetStandardClassLibrary",
-      "targetGraphs": [
-        "UAP,Version=v10.0.10586/win10-arm-aot"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project NetStandardClassLibrary is not compatible with uap10.0.10586 (UAP,Version=v10.0.10586) / win10-x64. Project NetStandardClassLibrary supports: netstandard2.0 (.NETStandard,Version=v2.0)",
-      "libraryId": "NetStandardClassLibrary",
-      "targetGraphs": [
-        "UAP,Version=v10.0.10586/win10-x64"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project NetStandardClassLibrary is not compatible with uap10.0.10586 (UAP,Version=v10.0.10586) / win10-x64-aot. Project NetStandardClassLibrary supports: netstandard2.0 (.NETStandard,Version=v2.0)",
-      "libraryId": "NetStandardClassLibrary",
-      "targetGraphs": [
-        "UAP,Version=v10.0.10586/win10-x64-aot"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project NetStandardClassLibrary is not compatible with uap10.0.10586 (UAP,Version=v10.0.10586) / win10-x86. Project NetStandardClassLibrary supports: netstandard2.0 (.NETStandard,Version=v2.0)",
-      "libraryId": "NetStandardClassLibrary",
-      "targetGraphs": [
-        "UAP,Version=v10.0.10586/win10-x86"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project NetStandardClassLibrary is not compatible with uap10.0.10586 (UAP,Version=v10.0.10586) / win10-x86-aot. Project NetStandardClassLibrary supports: netstandard2.0 (.NETStandard,Version=v2.0)",
-      "libraryId": "NetStandardClassLibrary",
-      "targetGraphs": [
-        "UAP,Version=v10.0.10586/win10-x86-aot"
-      ]
-    }
-  ]
+  }
 }

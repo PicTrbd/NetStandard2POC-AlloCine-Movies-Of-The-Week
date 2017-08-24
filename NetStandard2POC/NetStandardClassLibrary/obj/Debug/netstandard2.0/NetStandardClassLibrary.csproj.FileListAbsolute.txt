@@ -1,0 +1,6 @@
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandardClassLibrary\bin\Debug\netstandard2.0\NetStandardClassLibrary.deps.json
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandardClassLibrary\bin\Debug\netstandard2.0\NetStandardClassLibrary.dll
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandardClassLibrary\obj\Debug\netstandard2.0\NetStandardClassLibrary.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandardClassLibrary\obj\Debug\netstandard2.0\NetStandardClassLibrary.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandardClassLibrary\obj\Debug\netstandard2.0\NetStandardClassLibrary.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandardClassLibrary\obj\Debug\netstandard2.0\NetStandardClassLibrary.AssemblyInfo.cs

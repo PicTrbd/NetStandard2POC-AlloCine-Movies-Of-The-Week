@@ -1,0 +1,9 @@
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\bin\Debug\netcoreapp2.0\NetStandard2Core.deps.json
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\bin\Debug\netcoreapp2.0\NetStandard2Core.dll
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\obj\Debug\netcoreapp2.0\NetStandard2Core.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\obj\Debug\netcoreapp2.0\NetStandard2Core.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\obj\Debug\netcoreapp2.0\NetStandard2Core.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\obj\Debug\netcoreapp2.0\NetStandard2Core.AssemblyInfo.cs
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\bin\Debug\netcoreapp2.0\NetStandard2Core.pdb
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\obj\Debug\netcoreapp2.0\NetStandard2Core.dll
+\\Mac\Home\Documents\Projects\NetStandard2POC\NetStandard2POC\NetStandard2Core\obj\Debug\netcoreapp2.0\NetStandard2Core.pdb

@@ -232,11 +232,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "\\\\Mac\\Home\\Documents\\Projects\\NetStandard2POC\\NetStandard2POC\\NetStandardClassLibrary\\NetStandardClassLibrary.csproj",
+      "projectUniqueName": "Y:\\Documents\\Projects\\NetStandard2POC\\NetStandard2POC\\NetStandardClassLibrary\\NetStandardClassLibrary.csproj",
       "projectName": "NetStandardClassLibrary",
-      "projectPath": "\\\\Mac\\Home\\Documents\\Projects\\NetStandard2POC\\NetStandard2POC\\NetStandardClassLibrary\\NetStandardClassLibrary.csproj",
+      "projectPath": "Y:\\Documents\\Projects\\NetStandard2POC\\NetStandard2POC\\NetStandardClassLibrary\\NetStandardClassLibrary.csproj",
       "packagesPath": "C:\\Users\\TRA3561\\.nuget\\packages\\",
-      "outputPath": "\\\\Mac\\Home\\Documents\\Projects\\NetStandard2POC\\NetStandard2POC\\NetStandardClassLibrary\\obj\\",
+      "outputPath": "Y:\\Documents\\Projects\\NetStandard2POC\\NetStandard2POC\\NetStandardClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

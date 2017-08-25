@@ -1,5 +1,4 @@
-﻿using NetStandardClassLibrary;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,8 +10,6 @@ namespace ASPNetFrameworkApplication.Controllers
     {
         public ActionResult Index()
         {
-            var test = new TestClass();
-            test.TestMethod();
             return View();
         }
 

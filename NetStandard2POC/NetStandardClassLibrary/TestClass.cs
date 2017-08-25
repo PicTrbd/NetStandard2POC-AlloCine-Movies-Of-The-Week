@@ -1,17 +1,32 @@
-﻿using HtmlAgilityPack;
+﻿using System;
+using System.Diagnostics;
+using System.Net.Http;
+using HtmlAgilityPack;
 using iTextSharp.text;
-using System;
 
 namespace NetStandardClassLibrary
 {
     public class TestClass
     {
-        public void TestMethod()
+        public async void TestMethod()
         {
-            var z = new Document();
-            var doc = new HtmlWeb();
-            var y = doc.Load("http://www.google.fr");
-            //var nodes = doc.DocumentNode;
+            var doc = new Document();
+            var url = "http://www.brainjar.com/java/host/test.html";
+
+            var client = new HttpClient();
+
+            using (var response = await client.GetAsync(url))
+            {
+                using (var content = response.Content)
+                {
+                    // read answer in non-blocking way
+                    var result = await content.ReadAsStringAsync();
+                    var document = new HtmlDocument();
+                    document.LoadHtml(result);
+                    var nodes = document.DocumentNode.OuterHtml;
+                    Debug.WriteLine(nodes);
+                }
+            }   
         }
     }
 }

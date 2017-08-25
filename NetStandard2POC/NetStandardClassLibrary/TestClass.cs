@@ -9,8 +9,9 @@ namespace NetStandardClassLibrary
         public void TestMethod()
         {
             var z = new Document();
-            var doc = new HtmlWeb().Load("http://html-agility-pack.net/");
-            var nodes = doc.DocumentNode;
+            var doc = new HtmlWeb();
+            var y = doc.Load("http://www.google.fr");
+            //var nodes = doc.DocumentNode;
         }
     }
 }

@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using NetStandardClassLibrary;
+using NetStandardClassLibrary.MovieHtmlParser;
 
 namespace ASPNetFrameworkApplication
 {
@@ -15,8 +16,6 @@ namespace ASPNetFrameworkApplication
     {
         public static void Main(string[] args)
         {
-            var test = new TestClass();
-            test.TestMethod();
             BuildWebHost(args).Run();
         }
 

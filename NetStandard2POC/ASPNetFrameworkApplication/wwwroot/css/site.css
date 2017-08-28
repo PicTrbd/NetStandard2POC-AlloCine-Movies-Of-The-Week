@@ -10,26 +10,43 @@
     padding-right: 15px;
 }
 
-/* Carousel */
-.carousel-caption p {
+#movie-title {
     font-size: 20px;
-    line-height: 1.4;
+    font-weight: bold;
+    color: #325181;
+    display: inline;
 }
 
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
+#movie-director {
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    display: inline;
 }
 
-/* QR code generator */
-#qrCode {
-    margin: 15px;
+.nowrap {
+    white-space: nowrap;
 }
 
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
-    }
+#synopsis {
+    text-indent: 2em;
+    margin-top: 10px;
+}
+
+.navbar-viseo {
+    background-color: #1B3866 !important;
+}
+
+.copyright {
+    color: #1b3866;
+}
+
+.navbar-brand {
+    color: #f1f1f1 !important;
+}
+
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:focus {
+    color: white !important;
 }

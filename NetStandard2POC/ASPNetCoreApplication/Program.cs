@@ -15,8 +15,6 @@ namespace ASPNetCoreApplication
     {
         public static void Main(string[] args)
         {
-            var test = new TestClass();
-            test.TestMethod();
             BuildWebHost(args).Run();
         }
 

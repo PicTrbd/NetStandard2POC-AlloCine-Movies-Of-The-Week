@@ -50,3 +50,29 @@
 .navbar-brand:focus {
     color: white !important;
 }
+
+.btn-viseo {
+    color: #f1f1f1 !important;
+    background-color: #325181 !important;
+}
+
+.btn-viseo:hover,
+.btn-viseo:active,
+.btn-viseo:focus {
+    color: white !important;
+}
+
+#head {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+#head h1 {
+    float: left;
+}
+
+#head .btn-viseo {
+    float: right;
+    margin-top: 23px;
+}

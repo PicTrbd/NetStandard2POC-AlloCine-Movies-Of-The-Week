@@ -1,10 +1,18 @@
 ﻿@{
     ViewData["Title"] = "Accueil";
 }
+@using NetStandardClassLibrary.Models
+@using Newtonsoft.Json
 @model List<NetStandardClassLibrary.Models.MovieInformation>
 
 <div>
-    <h1>Sorties en salle de la semaine</h1>
+    <div id="head">
+        <h1>Sorties en salle de la semaine</h1>
+        <button type="button" 
+                onclick="location.href = '@Url.Action("DownloadPdf", "Home", 
+                                              new {moviesJson = JsonConvert.SerializeObject(Model.Select(x => new MovieInformation {Title = x.Title, Director = x.Director}))})'" 
+                class="btn-viseo btn btn-primary" >Télécharger le récapitulatif</button>
+    </div>
     @foreach (var movie in Model)
     {
         <div id="movie" style="border: 2px solid #F1F1F1; padding: 20px; width: 100%; height: 200px; margin: 10px 0px 10px 0px">
@@ -12,11 +20,12 @@
                 <span id="movie-title">@movie.Title</span><span class="nowrap"> de </span><span id="movie-director">@movie.Director</span>
                 <p id="synopsis">@movie.Synopsis</p>
                 <a href="@movie.Link">@movie.Title sur AlloCiné</a>
-                <br />
+                <br/>
             </div>
-            <div style="float: right;width:15%">
-                <img style="width: 115px;height: 160px" src="@movie.Picture"/>
+            <div style="float: right; width: 15%">
+                <img style="width: 115px; height: 160px" src="@movie.Picture"/>
             </div>
         </div>
     }
 </div>
+

@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
-using System.Runtime.CompilerServices;
-using System.Text;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
 using NetStandardClassLibrary.Models;
@@ -52,7 +49,7 @@ namespace NetStandardClassLibrary.MovieHtmlParser
             }
         }
 
-        private MovieInformation ExtractMovieInformationFromNode(IReadOnlyCollection<HtmlNode> movieInformationNode)
+        private static MovieInformation ExtractMovieInformationFromNode(IReadOnlyCollection<HtmlNode> movieInformationNode)
         {
             var movieInformation = new MovieInformation();
 

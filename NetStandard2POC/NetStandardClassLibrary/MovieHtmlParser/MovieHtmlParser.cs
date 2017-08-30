@@ -54,7 +54,7 @@ namespace NetStandardClassLibrary.MovieHtmlParser
             var movieInformation = new MovieInformation();
 
             var titleNode = movieInformationNode.First(x => x.Attributes["class"].Value.Contains("meta-title-link"));
-            movieInformation.Title = (titleNode == null ? "" : titleNode.InnerText.Replace("&amp;", "&"));
+            movieInformation.Title = (titleNode == null ? "" : titleNode.InnerText.Replace("&amp;", "&").Replace("&#039;", "'"));
 
             var directorNode = movieInformationNode.First(x => x.Attributes["class"].Value.Contains("meta-body-direction"))
                     .SelectNodes(".//a[contains(@class, 'blue-link')]");
